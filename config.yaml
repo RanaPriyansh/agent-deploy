@@ -1,0 +1,4 @@
+# Default configuration
+platform: vercel
+region: us-east-1
+runtime: python3.11
