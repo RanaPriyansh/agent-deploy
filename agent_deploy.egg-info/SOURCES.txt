@@ -1,0 +1,10 @@
+LICENSE
+README.md
+agent_deploy.py
+setup.py
+agent_deploy.egg-info/PKG-INFO
+agent_deploy.egg-info/SOURCES.txt
+agent_deploy.egg-info/dependency_links.txt
+agent_deploy.egg-info/entry_points.txt
+agent_deploy.egg-info/requires.txt
+agent_deploy.egg-info/top_level.txt

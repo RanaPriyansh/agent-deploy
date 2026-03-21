@@ -1,14 +1,14 @@
-# Thielon Agent Deploy
+# Agent Deploy
 
-[![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github)](https://github.com/thielon-apps/thielon-agent-deploy)
-[![License](https://img.shields.io/github/license/thielon-apps/thielon-agent-deploy)](https://github.com/thielon-apps/thielon-agent-deploy/blob/main/LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/thielon-apps/thielon-agent-deploy)](https://github.com/thielon-apps/thielon-agent-deploy/commits/main)
+[![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github)](https://github.com/RanaPriyansh/agent-deploy)
+[![License](https://img.shields.io/github/license/RanaPriyansh/agent-deploy)](https://github.com/RanaPriyansh/agent-deploy/blob/main/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/RanaPriyansh/agent-deploy)](https://github.com/RanaPriyansh/agent-deploy/commits/main)
 
 Deploy AI agents to cloud/edge with one command. Supports Vercel, Railway, Fly.io, Kubernetes.
 
 ## Features
 
-- **One-command deploy**: `thielon-agent deploy . --platform vercel`
+- **One-command deploy**: `agent-deploy deploy . --platform vercel`
 - **Multi-platform**: Vercel, Railway, Fly.io, AWS Lambda, GCP Cloud Run
 - **Configuration management**: Environment variables, secrets per environment
 - **Rollback**: Quick rollback to previous version
@@ -19,19 +19,19 @@ Deploy AI agents to cloud/edge with one command. Supports Vercel, Railway, Fly.i
 
 ```bash
 # Install
-pip install thielon-agent-deploy
+pip install agent-deploy
 
 # Deploy to Vercel
-thielon-agent deploy ./my-agent --platform vercel --name my-agent-prod
+agent-deploy deploy ./my-agent --platform vercel --name my-agent-prod
 
 # Deploy to Kubernetes
-thielon-agent deploy ./my-agent --platform k8s --namespace agents
+agent-deploy deploy ./my-agent --platform k8s --namespace agents
 ```
 
 ## Install
 
 ```bash
-pip install thielon-agent-deploy
+pip install agent-deploy
 ```
 
 ## Why
