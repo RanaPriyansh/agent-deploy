@@ -1,5 +1,9 @@
 # Thielon Agent Deploy
 
+[![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github)](https://github.com/thielon-apps/thielon-agent-deploy)
+[![License](https://img.shields.io/github/license/thielon-apps/thielon-agent-deploy)](https://github.com/thielon-apps/thielon-agent-deploy/blob/main/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/thielon-apps/thielon-agent-deploy)](https://github.com/thielon-apps/thielon-agent-deploy/commits/main)
+
 Deploy AI agents to cloud/edge with one command. Supports Vercel, Railway, Fly.io, Kubernetes.
 
 ## Features
